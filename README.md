@@ -11,7 +11,7 @@
 To include a link to the project repository, add a `data-tl` attribute to the script:
 
 ```html
-<script src="https://raw.githubusercontent.com/seanmcp/tl/master/sf.js"></script>
+<script data-tl="name-of-repo" src="https://raw.githubusercontent.com/seanmcp/tl/master/sf.js"></script>
 ```
 
 ### Build
