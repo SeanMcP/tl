@@ -5,13 +5,13 @@
 ## Shared footer
 
 ```html
-<script src="https://raw.githubusercontent.com/seanmcp/tl/master/sf.js"></script>
+<script src="https://seanmcp.github.io/tl/sf.js"></script>
 ```
 
 To include a link to the project repository, add a `data-tl` attribute to the script:
 
 ```html
-<script data-tl="name-of-repo" src="https://raw.githubusercontent.com/seanmcp/tl/master/sf.js"></script>
+<script data-tl="name-of-repo" src="https://seanmcp.github.io/tl/sf.js"></script>
 ```
 
 ### Build
