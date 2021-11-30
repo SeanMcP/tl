@@ -20,6 +20,13 @@ By default, the footer is on a white background. For a dark theme, add `data-m="
 <script data-m="dark" src="https://seanmcp.github.io/tl/sf.js"></script>
 ```
 
+## `tl-info`
+
+```html
+<tl-info data-heading="My cool app" data-description="This app teaches young children how to do a valuable skill"></tl-info>
+<script src="https://seanmcp.github.io/tl/tl-info.js"></script>
+```
+
 ### Build
 
 I didn't feel like adding a whole build step, so just run the following command:
