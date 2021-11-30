@@ -2,7 +2,35 @@
 
 🦙 Shared resources for Toollama.com apps
 
+## `tl-info`
+
+A web component for information about the app that isn't necessary for use.
+
+```html
+<tl-info data-heading="My cool app" data-description="An app to..."></tl-info>
+<script src="https://seanmcp.github.io/tl/tl-info.js"></script>
+```
+
+## `tl-footer`
+
+A web component for footer that links to Toollama.com and optionally the project repository.
+
+```html
+<!-- Basic footer -->
+<tl-footer></tl-footer>
+
+<!-- With "Edit this page" link -->
+<tl-footer data-repo="tl"></tl-footer>
+
+<!-- Dark mode -->
+<tl-footer data-mode="dark"></tl-footer>
+
+<script src="https://seanmcp.github.io/tl/tl-footer.js"></script>
+```
+
 ## Shared footer
+
+⚠️ **Deprecated**: Use `tl-footer` instead.
 
 ```html
 <script src="https://seanmcp.github.io/tl/sf.js"></script>
@@ -19,29 +47,6 @@ By default, the footer is on a white background. For a dark theme, add `data-m="
 ```html
 <script data-m="dark" src="https://seanmcp.github.io/tl/sf.js"></script>
 ```
-
-## `tl-info`
-
-```html
-<tl-info data-heading="My cool app" data-description="This app teaches young children how to do a valuable skill"></tl-info>
-<script src="https://seanmcp.github.io/tl/tl-info.js"></script>
-```
-
-## `tl-footer`
-
-```html
-<!-- Basic footer -->
-<tl-footer></tl-footer>
-
-<!-- With "Edit this page" link -->
-<tl-footer data-repo="tl"></tl-footer>
-
-<!-- Dark mode -->
-<tl-footer data-mode="dark"></tl-footer>
-
-<script src="https://seanmcp.github.io/tl/tl-footer.js"></script>
-```
-
 ### Build
 
 I didn't feel like adding a whole build step, so just run the following command:
