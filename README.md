@@ -27,6 +27,21 @@ By default, the footer is on a white background. For a dark theme, add `data-m="
 <script src="https://seanmcp.github.io/tl/tl-info.js"></script>
 ```
 
+## `tl-footer`
+
+```html
+<!-- Basic footer -->
+<tl-footer></tl-footer>
+
+<!-- With "Edit this page" link -->
+<tl-footer data-repo="tl"></tl-footer>
+
+<!-- Dark mode -->
+<tl-footer data-mode="dark"></tl-footer>
+
+<script src="https://seanmcp.github.io/tl/tl-footer.js"></script>
+```
+
 ### Build
 
 I didn't feel like adding a whole build step, so just run the following command:
