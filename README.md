@@ -28,6 +28,22 @@ A web component for footer that links to Toollama.com and optionally the project
 <script src="https://seanmcp.github.io/tl/tl-footer.js"></script>
 ```
 
+## All
+
+If you want to use all of the web components, add the following script to your document:
+
+```html
+<script src="https://seanmcp.github.io/tl/wc.js"></script>
+```
+
+### Build
+
+Run the following:
+
+```shell
+cat tl-*.js | npx terser --compress --mangle --output wc.js
+```
+
 ## Shared footer
 
 ⚠️ **Deprecated**: Use `tl-footer` instead.
@@ -39,7 +55,10 @@ A web component for footer that links to Toollama.com and optionally the project
 To include a link to the project repository, add a `data-tl` attribute to the script:
 
 ```html
-<script data-tl="name-of-repo" src="https://seanmcp.github.io/tl/sf.js"></script>
+<script
+  data-tl="name-of-repo"
+  src="https://seanmcp.github.io/tl/sf.js"
+></script>
 ```
 
 By default, the footer is on a white background. For a dark theme, add `data-m="dark"`:
@@ -47,6 +66,7 @@ By default, the footer is on a white background. For a dark theme, add `data-m="
 ```html
 <script data-m="dark" src="https://seanmcp.github.io/tl/sf.js"></script>
 ```
+
 ### Build
 
 I didn't feel like adding a whole build step, so just run the following command:

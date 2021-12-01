@@ -19,36 +19,36 @@ class TLFooter extends HTMLElement {
 
     const style = document.createElement("style");
     style.textContent = `
-        .__tl-footer {
-            background-color: white;
-            bottom: 0;
-            box-shadow: 0 0 1rem hsla(0, 0%, 0%, 10%);
-            color: hsl(0, 0%, 75%);
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: small;
-            left: 0;
-            padding: 0.5em;
-            position: fixed;
-            right: 0;
-            text-align: center;
-        }
-    
-        .__tl-footer a {
-            color: hsl(264, 64%, 48%);
-        }
-    
-        .__tl-footer a:not(:focus):not(:hover) {
-            text-decoration: none;
-        }
-    
-        .__tl-footer[data-mode="dark"] {
-        background-color: black;
-        color: hsl(0, 0%, 25%);
-        }
-    
-        .__tl-footer[data-mode="dark"] a {
-        color: hsl(264, 64%, 70%);
-        }
+.__tl-footer {
+    background-color: white;
+    bottom: 0;
+    box-shadow: 0 0 1rem hsla(0, 0%, 0%, 10%);
+    color: hsl(0, 0%, 75%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    left: 0;
+    padding: 0.5em;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+
+.__tl-footer a {
+    color: hsl(264, 64%, 48%);
+}
+
+.__tl-footer a:not(:focus):not(:hover) {
+    text-decoration: none;
+}
+
+.__tl-footer[data-mode="dark"] {
+  background-color: black;
+  color: hsl(0, 0%, 25%);
+}
+
+.__tl-footer[data-mode="dark"] a {
+  color: hsl(264, 64%, 70%);
+}
     `;
 
     shadow.appendChild(div);
