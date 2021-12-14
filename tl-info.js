@@ -45,10 +45,8 @@ class TLInfo extends HTMLElement {
   width: 2rem;
 }
 
-.__tl-info summary::marker,
-.__tl-info summary::-webkit-details-marker {
-  display: none;
-}
+.__tl-info summary::-webkit-details-marker { display: none; }
+.__tl-info summary::marker { display: none; }
 
 .__tl-info[open] summary,
 .__tl-info summary:focus,
